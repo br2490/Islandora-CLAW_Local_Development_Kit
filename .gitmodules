@@ -1,3 +1,6 @@
 [submodule "PDX"]
 	path = PDX
 	url = git@github.com:br2490/PDX.git
+[submodule "Crayfish"]
+	path = Crayfish
+	url = https://github.com/Islandora-CLAW/Crayfish
