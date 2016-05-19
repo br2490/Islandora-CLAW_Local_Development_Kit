@@ -4,3 +4,6 @@
 [submodule "Crayfish"]
 	path = Crayfish
 	url = https://github.com/Islandora-CLAW/Crayfish
+[submodule "fcrepo-camel-toolbox"]
+	path = fcrepo-camel-toolbox
+	url = https://github.com/fcrepo4-exts/fcrepo-camel-toolbox.git

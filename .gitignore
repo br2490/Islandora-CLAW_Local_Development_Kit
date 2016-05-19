@@ -2,3 +2,6 @@
 servers/rules.log
 servers/blazegraph.jnl
 servers/fcrepo4-data/
+servers/apache-karaf-4.0.5/data/
+servers/apache-karaf-4.0.5/instances/
+servers/apache-karaf-4.0.5/lock

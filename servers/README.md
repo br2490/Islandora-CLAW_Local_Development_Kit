@@ -12,6 +12,7 @@ They are included here for development purposes ONLY. Please see respective proj
 **Requirements**
 * Java 8 JDK
 * Java ENV set
+* Apache Maven
 * Screen to use `launch_servers.sh` (optional)
 
 **Running Each Server**
@@ -23,3 +24,13 @@ Note that I run these commands individually to monitor the server console and ou
 
 
 OR `chmod u+x launch_servers.sh && ./launch_servers.sh`
+
+**Building fcrepo-camel-toolbox**
+
+MAVEN_OPTS="-Xmx1024m" mvn clean install
+
+...
+client -f feature:repo-add mvn:org.fcrepo.camel/toolbox-features/LATEST/xml/features
+client -f feature:install fcrepo-indexing-triplestore
+
+#WIP
