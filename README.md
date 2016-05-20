@@ -16,8 +16,8 @@ The general idea here is to have a quick way to deploy services related to Islan
 
 To get the servers running run `./start_servers` which will launch a screen session with each server, for monitoring. fcrepo you still need to click "run." See the servers folder for requirements.
 
-* Blazegraph runs on http://localhost:9999/
-* Fedora runs at http://localhost:8080/rest
+* Blazegraph runs on [http://localhost:9999/](http://localhost:9999/)
+* Fedora runs at [http://localhost:8080/rest](http://localhost:8080/rest)
 * Islandora will run at XYZ (haven't gotten this far.)
 * Karaf runs and does things! (the client is accessible in the server's bin folder)
 
