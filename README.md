@@ -27,7 +27,7 @@ Done! Enjoy the console spam!
 
 **Locations**
 
-* Blazegraph runs on [http://localhost:9999/](http://localhost:9999/)
+* Blazegraph runs at [http://localhost:9999/](http://localhost:9999/)
 * Fedora runs at [http://localhost:8080/rest](http://localhost:8080/rest)
 * Islandora will run at [http://localhost:8585/](http://localhost:8585/)
 * Karaf runs and does things! (the client is accessible in the server's bin folder)
@@ -46,7 +46,7 @@ Remember! fcrepo needs you to click `Start`.
 
 See the servers folder for requirements and licenses.
 
-**With the servers running you build the fcrepo-camel-toolbox**
+**With the servers running build the fcrepo-camel-toolbox**
 
 To get Karaf running fcrepo-camel-toolbox just `./build-fcrepo-toolbox`. 
 
