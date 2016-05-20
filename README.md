@@ -4,6 +4,16 @@
 
 The general idea here is to have a quick way to deploy services related to Islandora CLAW development locally. Each part of CLAW is added here as a submodule ~ which you can add your git remote to ~ to develop and commit back. Right now this is a _very_ early environment (let's call it a WIP). In _theory_ a hard revert to HEAD should bring you back to square 1, clean and fresh.
 
+
+**Quickest Start**
+
+* git clone https://github.com/br2490/Islandora-Development.git
+* cd Islandora-Development
+* ./quickest_start.sh
+
+Done! Enjoy the console spam!
+
+
 **Quick Start**
 
 * Fork and/or clone this repo to your dev env.
