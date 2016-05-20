@@ -20,17 +20,9 @@ They are included here for development purposes ONLY. Please see respective proj
 Note that I run these commands individually to monitor the server console and output.
 * `java -server -jar blazegraph.jar`
 * `java -jar fcrepo-webapp-4.5.1-jetty-console.jar`
-* `
+* `./apache-karaf-4.0.5/bin/karaf server
 
 
-OR `chmod u+x launch_servers.sh && ./launch_servers.sh`
+OR `cd.. && ./launch_servers.sh``
 
-**Building fcrepo-camel-toolbox**
-
-MAVEN_OPTS="-Xmx1024m" mvn clean install
-
-...
-client -f feature:repo-add mvn:org.fcrepo.camel/toolbox-features/LATEST/xml/features
-client -f feature:install fcrepo-indexing-triplestore
-
-#WIP
+@WORK IN PROGRESS
