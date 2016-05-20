@@ -1,9 +1,12 @@
-[submodule "PDX"]
-	path = PDX
-	url = git@github.com:br2490/PDX.git
 [submodule "Crayfish"]
 	path = Crayfish
 	url = https://github.com/Islandora-CLAW/Crayfish
 [submodule "fcrepo-camel-toolbox"]
 	path = fcrepo-camel-toolbox
 	url = https://github.com/fcrepo4-exts/fcrepo-camel-toolbox.git
+[submodule "pdx"]
+	path = pdx
+	url = https://github.com/Islandora-CLAW/pdx
+[submodule "chullo"]
+	path = chullo
+	url = https://github.com/Islandora-CLAW/chullo
