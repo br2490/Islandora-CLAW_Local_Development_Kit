@@ -1,5 +1,0 @@
-# SCREEN CONFIG
-startup_message off
-screen -t blazegraph java -server -jar blazegraph.jar
-screen -t fcrepo java -jar fcrepo-webapp-4.5.1-jetty-console.jar
-screen -t karaf ./apache-karaf-4.0.5/bin/karaf server
