@@ -69,9 +69,4 @@ Next update Composer, and initalize our microservices on port 8585:
 
 **Reqs**
 
-phpunit
-php-mbstring
-...
-
-
-This document is a WIP and more of a "get this down on paper before you forget what you did." 
+Screen, Apache Maven, * JDK 8, phpunit, php-mbstring, coffee.
