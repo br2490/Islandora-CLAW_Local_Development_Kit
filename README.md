@@ -7,7 +7,7 @@ The general idea here is to have a quick way to deploy services related to Islan
 
 **Quickest Start**
 
-* git clone https://github.com/br2490/Islandora-Development.git
+* git clone https://github.com/br2490/Islandora-CLAW_Local_Development_Kit.git
 * cd Islandora-Development
 * ./quickest_start.sh
 
